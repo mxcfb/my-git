@@ -6,7 +6,9 @@ git pull --rebase = git fetch + git rebase &emsp; **Rebase the current branch on
 
 git merge vs git rebase
 
-**GIT_COMMITTER_DATE="Commit Date"** git commit **--amend --no-edit --date="Author Date"** --author="Author Name <email@address.com>"/--reset-author
+**GIT_AUTHOR_DATE="Author Date" GIT_COMMITTER_DATE="Commit Date"** git commit **--amend --no-edit** --author="Author Name <email@address.com>"/--reset-author
+
+GIT_AUTHOR_NAME, GIT_AUTHOR_EMAIL, GIT_COMMITTER_NAME, GIT_COMMITTER_EMAIL
 
 # 说明
 这整个 Repository 是关于分布式版本管理工具 Git 及托管商 Github 的使用，大部分都是网友写的内容，在这里只是做一个资源的汇总和合理的安排，希望能成为最好的学习 Git 的资源，从开始入门使用，到慢慢的提高，再到理解各种原理，希望能够达成这个目标。
